@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Emplay Assignment]">
+  <listeners>
+    <listener class-name="com.amazon.test.extentreport.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Amazon Test Cases(failed)">
+    <classes>
+      <class name="com.amazon.test.testcases.AmazonAssignmentTest">
+        <methods>
+          <include name="validateCheapestSelectionTest"/>
+          <include name="validateBuyNowTest"/>
+          <include name="validateLoginPageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.amazon.test.testcases.AmazonAssignmentTest -->
+    </classes>
+  </test> <!-- Amazon Test Cases(failed) -->
+</suite> <!-- Failed suite [Emplay Assignment] -->

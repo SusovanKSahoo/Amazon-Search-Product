@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Emplay Assignment" duration-ms="39225" started-at="2018-03-11T14:47:18Z" finished-at="2018-03-11T14:47:57Z">
+    <groups>
+    </groups>
+    <test name="Amazon Test Cases" duration-ms="39225" started-at="2018-03-11T14:47:18Z" finished-at="2018-03-11T14:47:57Z">
+      <class name="com.amazon.test.testcases.AmazonAssignmentTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.test.testcases.AmazonAssignmentTest@57fffcd7]" name="setUp" is-config="true" duration-ms="13812" started-at="2018-03-11T14:47:18Z" finished-at="2018-03-11T14:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.amazon.test.testcases.AmazonAssignmentTest@57fffcd7]" name="homePageTitleTest" duration-ms="4059" started-at="2018-03-11T14:47:32Z" finished-at="2018-03-11T14:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:2, instance:com.amazon.test.testcases.AmazonAssignmentTest@57fffcd7]" name="searchTest" duration-ms="4272" started-at="2018-03-11T14:47:36Z" data-provider="getSearchTestData" finished-at="2018-03-11T14:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pen drive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="validateSearchInputTest()[pri:3, instance:com.amazon.test.testcases.AmazonAssignmentTest@57fffcd7]" name="validateSearchInputTest" duration-ms="1224" started-at="2018-03-11T14:47:40Z" finished-at="2018-03-11T14:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchInputTest -->
+        <test-method status="PASS" signature="validateFilteredBrandTest(java.lang.String)[pri:4, instance:com.amazon.test.testcases.AmazonAssignmentTest@57fffcd7]" name="validateFilteredBrandTest" duration-ms="1085" started-at="2018-03-11T14:47:41Z" data-provider="getBrandTestData" finished-at="2018-03-11T14:47:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SanDisk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFilteredBrandTest -->
+        <test-method status="PASS" signature="validateFilteredPriceRangeTest(java.lang.String, java.lang.String)[pri:5, instance:com.amazon.test.testcases.AmazonAssignmentTest@57fffcd7]" name="validateFilteredPriceRangeTest" duration-ms="5659" started-at="2018-03-11T14:47:42Z" data-provider="getPriceRangeTestData" finished-at="2018-03-11T14:47:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFilteredPriceRangeTest -->
+        <test-method status="PASS" signature="validateFilteredRatingTest(java.lang.String)[pri:6, instance:com.amazon.test.testcases.AmazonAssignmentTest@57fffcd7]" name="validateFilteredRatingTest" duration-ms="1089" started-at="2018-03-11T14:47:48Z" data-provider="getRatingFilterTestData" finished-at="2018-03-11T14:47:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4 Stars & Up]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFilteredRatingTest -->
+        <test-method status="PASS" signature="validateCheapestSelectionTest()[pri:7, instance:com.amazon.test.testcases.AmazonAssignmentTest@57fffcd7]" name="validateCheapestSelectionTest" duration-ms="1786" started-at="2018-03-11T14:47:49Z" finished-at="2018-03-11T14:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheapestSelectionTest -->
+        <test-method status="PASS" signature="validateBuyNowTest()[pri:8, instance:com.amazon.test.testcases.AmazonAssignmentTest@57fffcd7]" name="validateBuyNowTest" duration-ms="5010" started-at="2018-03-11T14:47:51Z" finished-at="2018-03-11T14:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBuyNowTest -->
+        <test-method status="PASS" signature="validateLoginPageTitleTest()[pri:9, instance:com.amazon.test.testcases.AmazonAssignmentTest@57fffcd7]" name="validateLoginPageTitleTest" duration-ms="160" started-at="2018-03-11T14:47:56Z" finished-at="2018-03-11T14:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.test.testcases.AmazonAssignmentTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="839" started-at="2018-03-11T14:47:56Z" finished-at="2018-03-11T14:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.test.testcases.AmazonAssignmentTest -->
+    </test> <!-- Amazon Test Cases -->
+  </suite> <!-- Emplay Assignment -->
+</testng-results>
